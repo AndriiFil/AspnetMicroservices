@@ -15,9 +15,9 @@ namespace Catalog.API
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration1)
+        public Startup(IConfiguration configuration)
         {
-            Configuration = configuration1;
+            Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }
